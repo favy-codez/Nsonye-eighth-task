@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-body{
+main{
+    background-color: #7d93e0;
     height: 100vh;
-    background: #7d93e0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@ body{
     border-radius: 10px;
     overflow: hidden;
     text-align: right;
-    box-shadow: 7px 7px 7px rgba(0,0,0,0.5);
+    box-shadow: 7px 7px 7px rgb(0,0,0);
 }
 
 .display{
@@ -25,7 +25,6 @@ body{
     height: 20vh;
     background: white;
     color: black ;
-
 }
 
 .input{
@@ -35,8 +34,9 @@ body{
 
 button{
     border:none;
+    border-radius: 50%;
     background-color: white;
-    padding:1.6rem;
+    padding:28px 10px;
     font-size: 22px;
     transition: all 0.3s ease-in-out;
 }
@@ -53,6 +53,24 @@ button:hover{
 .result{
     font-size: 18px;
     padding: 25px;
+}
+
+/* btn color section */
+#col-1{
+    color: ;
+}
+
+#col-2{
+    color: ;
+}
+
+#col-3{
+    color: ;
+}
+
+#col-4{
+    border-radius: 100%;
+    /* background-color: #20b2aa ; */
 }
 
 @keyframes big{

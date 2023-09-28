@@ -9,7 +9,7 @@ keys.forEach(key=>{
 
 function calculate(){
     let buttonText = this.innerText;
-    if(buttonText==="AC"){
+    if(buttonText==="C"){
         output.innerText = "";
         result.innerText = "0";
         result.style.animation = "";
@@ -17,7 +17,7 @@ function calculate(){
         return;
     }
 
-    if(buttonText === "DEL"){
+    if(buttonText === "AC"){
         output.textContent = output.textContent.substr(0,output.textContent.length-1);
         return;
     }
@@ -34,6 +34,4 @@ function calculate(){
         output.textContent += buttonText;
         return;
     }
-
-  
 }

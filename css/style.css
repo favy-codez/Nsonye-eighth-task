@@ -34,7 +34,6 @@ main{
     text-align: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap:10px 15px;
-    /* margin-top: 1rem; */
 }
 
 button{
@@ -53,12 +52,12 @@ button:hover{
 
 .output{
     font-size: 28px;
-    padding: 0 25px;
+    padding: 0 15px;
 }
 
 .result{
     font-size: 18px;
-    padding: 25px;
+    padding: 25px 15px;
 }
 
 /* btn color section */

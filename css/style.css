@@ -24,7 +24,7 @@ main{
 
 .display{
     width: 100%;
-    height: 20vh;
+    height: 16vh;
     background: white;
     color: black ;
 }
@@ -34,6 +34,7 @@ main{
     text-align: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap:10px 15px;
+    /* margin-top: 1rem; */
 }
 
 button{
@@ -52,7 +53,7 @@ button:hover{
 
 .output{
     font-size: 28px;
-    padding: 25px;
+    padding: 0 25px;
 }
 
 .result{
